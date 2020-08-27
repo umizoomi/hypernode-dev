@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+    hypernode-docker:
+        container_name: hypernode
+        environment: 
+            - ACTIVE_REPO=joshv_magento2
+        build: 
+            context: .
+            args: 
+                ACTIVE_REPO: joshv_magento2
+        ports:
+            - 8080:80
+            - 8443:443
+        volumes:
+            - hypernode-mysql:/data/mysql
+            - ./authorized_keys:/root/.ssh/authorized_keys
+            - ./magweb.json:/etc/hypernode/magweb.json
+            - /home/mcjambi/.ssh/id_rsa:/data/web/.ssh/id_rsa
+            - /home/mcjambi/.ssh/id_rsa.pub:/dat/web/.ssh/id_rsa.pub
+            - /home/mcjambi/.composer:/data/web/.composer
+            - /home/mcjambi/repos:/data/web/repos
+        restart: unless-stopped
+
+volumes:
+    hypernode-mysql:
+

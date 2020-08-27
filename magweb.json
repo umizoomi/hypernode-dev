@@ -1,0 +1,92 @@
+{
+    "administratively_disabled": false,
+    "app_passwd": "$6$bNp9iCdS$aftPX9CGFCKYnmd5eYbfWBkvpDuL1ZbjM9hY6AUlSl98P0KiRu4CAao6l6Bg2hdJzFdO0AhkXA.GhaORz/Iky1",
+    "beta_features": {
+        "enabled": false
+    },
+    "blackfire": {
+        "enabled": false,
+        "server_id": null,
+        "server_token": null
+    },
+    "blocked_bots": [],
+    "enable_ioncube": false,
+    "firewall_block_ftp": {
+        "enabled": false
+    },
+    "hn_domain_lets_encrypt": {
+        "enabled": false
+    },
+    "is_development": false,
+    "magento": {
+        "admin": {
+            "email": "jamilio@e-tales.nl",
+            "first_name": "Jamilio",
+            "last_name": "Rasidi",
+            "locale": "en_US"
+        },
+        "initial_version": "1"
+    },
+    "mail_disabled": false,
+    "mailhog": {
+        "enabled": true
+    },
+    "newrelic": {
+        "appname": "dummytag.hypernode.io",
+        "enabled": false,
+        "license": "1234567890abcdefghijklmnopqrstuvwxys"
+    },
+    "nginx_brotli": {
+        "enabled": true
+    },
+    "nodejs_version": "10",
+    "openvpn": {
+        "enabled": false
+    },
+    "php": {
+        "fpm_memory_limit": "2048",
+        "opcache_memory": 256,
+        "override_sendmail_return_path": null,
+        "version": "7.3"
+    },
+    "php_apcu_enabled": false,
+    "security_disabled": false,
+    "sftpd_daemon": {
+        "enabled": false
+    },
+    "sphinx": {
+        "enabled": true
+    },
+    "ssh": {
+        "authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXvI35lPz7jq1zPvqy0rEOn3HMIPrzKO74ydg0Js5OEEm6ikuMKbCpQ6UXIEVOvlzLE8X9j5JaPcRrI3WAGYYftc65Znup/p5FhDJFm+cveAocjsYCzdfA2EQT3vVPXeFnLU2cyLoDnn/Lld4q0Nfc0PVSeexEr5AS7XCrLBSmI6CEr7cY1E45o5YmEAf0v8juFzaSUwhE+1zfhAby9/0hV1cu3VLJy+vGVRIUMEuBnLeghRsBbq6EhRt8luBqfYEcsmyaMkmtJqgGbHYIhfLPIglV852PDHQJFGKGVmlJRRU3taVfoHbR1KDzisL6AZmU86QCV0+1MdTlu5mEEGgtueHfDC/NZVrZc0KwVYuhzSsCk7sfssoWdPrxPXnEQuS759qD4lMy+m+C9cWt/lTsT+EywraCc2uDzcSyJEMg4+R8Vxg6r1kAmAtYL1EKRHv9OMY3N/Lg4RVbXQ5VaziNYiUYLrmMORdq2wRFmaH5L6IYDCoTh/mtD72cmQux/J/AZn1uDIYCAgEDY7SM8xoh7AEpCHY6uJ93eb6S1FB+5WfHGkA7QJhgAVmyzlilJCcDVXpqvNigkxIUN0ZIRTRneO1YZQhXS9+Kuc6Q3yluxvh6wbme8fOKj+9qjGdTb1S4uk6k83QZPvfx+Kjs8zJ4U7OBBJ5ousW7xafuBaIjdw== jamilio@rasidi.nl"
+    },
+    "ssl": [
+        {
+            "alternative_names": [],
+            "ca": "None",
+            "ca_name": "COMODO RSA Domain Validation Secure Server CA",
+            "crt": "-----BEGIN CERTIFICATE-----\nMIIDCzCCAfOgAwIBAgIJAMVi2yP6w2cAMA0GCSqGSIb3DQEBCwUAMBwxGjAYBgNV\nBAMMESouaHlwZXJub2RlLmxvY2FsMB4XDTE2MDIxNjEzMTAxNloXDTI2MDIxMzEz\nMTAxNlowHDEaMBgGA1UEAwwRKi5oeXBlcm5vZGUubG9jYWwwggEiMA0GCSqGSIb3\nDQEBAQUAA4IBDwAwggEKAoIBAQDmIWMgYsfX4LCqimfmjlqCYrjWNMRLsGaQeAzJ\nSRVrB+9WaI30R8+OPVpLHdt3DsigVT5g4A8ik8Feoml/zrMtkjSf6E8RnqvOb723\nLwcWy6sVRE36IvpUsXnBw0KVHYpMq7+Rd4FgvBTYGP0+gXKI98MvBipA+YoN8NLL\n6BI2M72M0WtKjoK8P2TrOlPri0ILPYLLhRRNb8fzokTuQACjnjGlxkmiLGCc3et3\n6DD9WcfGDUPV5HbcS3QWf3v+Vsvx7NydfN1fva/UOKmovjRYHPr4FlGmmSZN5ohs\nw8I7UgFNmf/0GT2nwqtop4SNbAdCVZquY27bn28yHL0pwH8XAgMBAAGjUDBOMB0G\nA1UdDgQWBBROxsEUJbeK8Z3Sb97ub5q3iq8XPTAfBgNVHSMEGDAWgBROxsEUJbeK\n8Z3Sb97ub5q3iq8XPTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCM\nXIOJs3EuKUlwyi10U3C5WvNXwyxbVbXlUTipS1PoCFgxJnoKzd+IyTz7+qT1aVN1\n+uYBGDJnrZb6b99T/wU4kFocyVhLGLmW50D2KY0EVJj/AKayHhK3leB2Xon/3SYG\ngUvwT4C0CVqxS0EUEbpAZAp5mpbbP/+UI2cD9VQczh8mIJlnR4cF4LCRyo7H5ySi\nc1htXPlNDrb5Nv+VWT6Gq9QlLOc5JSvcKbKyr1+f5SC6Cu66+JpT22sbs80xKRbX\nV9b6/AKa1aMF4cn0n3l0+wv0qzjYq0D8v3YEcfPmK6yB+I4TB/NOv/EA2Ewksdfa\nLbq6eF6pQU7Qir+iABqL\n-----END CERTIFICATE-----",
+            "default": true,
+            "domainname": "*.hypernode.local",
+            "key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA5iFjIGLH1+Cwqopn5o5agmK41jTES7BmkHgMyUkVawfvVmiN\n9EfPjj1aSx3bdw7IoFU+YOAPIpPBXqJpf86zLZI0n+hPEZ6rzm+9ty8HFsurFURN\n+iL6VLF5wcNClR2KTKu/kXeBYLwU2Bj9PoFyiPfDLwYqQPmKDfDSy+gSNjO9jNFr\nSo6CvD9k6zpT64tCCz2Cy4UUTW/H86JE7kAAo54xpcZJoixgnN3rd+gw/VnHxg1D\n1eR23Et0Fn97/lbL8ezcnXzdX72v1DipqL40WBz6+BZRppkmTeaIbMPCO1IBTZn/\n9Bk9p8KraKeEjWwHQlWarmNu259vMhy9KcB/FwIDAQABAoIBABHvwD4h9NmKlbp1\nFywNJFjNQQLREgukMBpKgRSfMaAp+imN9KJ5hl/bwFHifdyFtnVor3f1frh/M68g\nkYB4p9aBcsCT5rXE3Dc21l6Ut8S7ExaRQFKir0gynP7RLTtaFhFrwX6hBeB4SFef\nev2IMVkjln7vyBNQX8Y+Yu+pouG+eMFMS1RkTkzESuvtAugfw3NCF959P9h093qF\nj5IRd9ahqXXqCGbGnjuBtCORTe1gkvb+WFqDauRlef5bHDRkFKtcO/9uD28evXKz\nIf7XrpFbWYGRQk70TnKmfjdgj4o5dNpC+13oe3e0iCmroHRJ0r/fzFlMzJkQGL3W\nzCH4YcECgYEA/z/DQNC3/TcVSKDdhTa8Xh44MfIsCnjuAkyKfTsket1HqShpijOJ\njreiXcXu8t3nUWi3Au3gXomqPsrOSKEAMs5nwTlPUGw2rb0YK00z3rwR1gIhdPTO\nFso0fQ+iYQCLvX4UCC8OB/RSikURxXb8j1YQ1NXcMwU+1tWSO5RYA2kCgYEA5s60\n7OW1gnWZL7mgbJ6fZnsTl8lBEMLTKoPCExhK8DghNBz2MQ7cTeE5964Xo6BsobAQ\nuSUrt7SkGG+4sK7qSpUkHJxoJQx6Jk2gKHUdzz4gptG7vAHZn+euyx6lJIxQ1feg\nJdVKFp5jgae0gybCgt0bEF2VK+gvMGvMw0ycnn8CgYEAgGjJh6/4/9BYSsNy7fON\nbCPzzVyxv0r7IfjzqvC393+e74C/J6Gp0Dyd2GMdRN1R4+i0OSsGt0i2dwR8Jpmo\niebA17pHJoRqNZltsUsTjzg6GNnVjwshKuHq6geVfwtRQbFNzpgtjN7jL2B0Ak1L\n3ahEq24zaw92f4nOGV8VsBECgYEAzF92p1oT6iwVc8QLwIKIpOcQh1PmsF/DOh8n\nR184ZBNfm1SVzwTYoIFxodZfCj1wU4+ijz7Rwj5LG3Q59wE7ZsU/D7KTKVMuCiKs\nUYa62ZqqsOyALs74k/ZDuYouMvmoTn6RKU7+5p5jgBgu5/73N4dvgoNLJnDW8CpU\nSw7YlCMCgYBHAR8/rWNT8PNT6owi7Edj7ATjTzVmwQjffuiP7WjvRgd0vwhOocoq\nfTfxvHw8RA3JEJxtRFDYLGBIzRwwznGlLTyP+CPL/tvaV3vITyAav30rY5ykRzcu\nQ564Du6mgiUFOHgQSV7ppfKjQNLMoXDDWYm4/mgtag8iISd35ebrmw==\n-----END RSA PRIVATE KEY-----"
+        }
+    ],
+    "ssl_requests": [
+        {
+            "dcv_file_content": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\ncomodoca.com\n",
+            "dcv_file_name": "A9D108124981034611CB06C3A60FDF77.txt"
+        }
+    ],
+    "supervisor": {
+        "enabled": true
+    },
+    "unixodbc": {
+        "enabled": true
+    },
+    "varnish": {
+        "enabled": false,
+        "esi_ignore_https": true,
+        "secret": "LwA6B3lK1wNs",
+        "version": "4.0"
+    }
+}
